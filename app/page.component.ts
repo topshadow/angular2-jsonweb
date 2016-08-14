@@ -5,4 +5,7 @@ import {} from '@angular/common';
     selector:'page',
     template:'this is a page Component'
 })
-export class PageComponent{}
+export class PageComponent{
+
+    
+}
