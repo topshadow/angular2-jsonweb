@@ -1,0 +1,14 @@
+{
+    "nav":{},
+    "foot":{},
+    "pages":[
+        {
+            "path":"index",
+            "parts":[
+                {
+                    "part":"banner"
+                }
+            ]
+        }
+    ]
+}

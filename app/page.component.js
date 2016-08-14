@@ -9,24 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var common_1 = require('@angular/common');
-var platform_browser_1 = require('@angular/platform-browser');
-var forms_1 = require('@angular/forms');
-var app_component_1 = require('./app.component');
-var app_routing_1 = require('./app.routing');
-var index_1 = require('./parts/index');
-var AppModule = (function () {
-    function AppModule() {
+var PageComponent = (function () {
+    function PageComponent() {
     }
-    AppModule = __decorate([
-        core_1.NgModule({
-            imports: [common_1.CommonModule, platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing],
-            declarations: [app_component_1.AppComponent, index_1.SignInComponent, index_1.MyNavComponent],
-            bootstrap: [app_component_1.AppComponent]
+    PageComponent = __decorate([
+        core_1.Component({
+            selector: 'page',
+            template: 'this is a page Component'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
+    ], PageComponent);
+    return PageComponent;
 }());
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+exports.PageComponent = PageComponent;
+//# sourceMappingURL=page.component.js.map
