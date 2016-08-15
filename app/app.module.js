@@ -15,13 +15,20 @@ var forms_1 = require('@angular/forms');
 var app_component_1 = require('./app.component');
 var app_routing_1 = require('./app.routing');
 var index_1 = require('./parts/index');
+var page_component_1 = require('./page.component');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing],
-            declarations: [app_component_1.AppComponent, index_1.SignInComponent, index_1.MyNavComponent],
+            declarations: [
+                app_component_1.AppComponent, index_1.SignInComponent, index_1.MyNavComponent, page_component_1.PageComponent, index_1.SignUpComponent,
+                index_1.BannerComponent, index_1.ShowCaseComponent, index_1.DynamicComponent, index_1.MyFootComponent, index_1.ImageArticleComponent,
+                index_1.LocationCompoennt, index_1.ProductListComponent, index_1.ListComponent,
+                index_1.TwoLayoutComponent,
+                index_1.CustomComponent
+            ],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

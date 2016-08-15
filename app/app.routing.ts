@@ -1,6 +1,7 @@
 import { Routes, RouterModule } from '@angular/router';
 import {PageComponent} from './page.component';
-import {SignInComponent} from './parts/sign/sign-in/sign-in';
+
+import {SignInComponent,SignUpComponent} from './parts/index';
 
 const appRoutes: Routes = [
   {
@@ -12,8 +13,11 @@ const appRoutes: Routes = [
     path:"sign-in",
     component:SignInComponent
 },
-
-  { path: '**', 
+{
+  path:'sign-up',
+  component:SignUpComponent
+},
+  { path: ':page', 
   component: PageComponent,
   pathMatch:'full' 
 }

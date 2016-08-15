@@ -1,5 +1,7 @@
 {
-    "nav":{},
+    "nav":{
+
+    },
     "foot":{},
     "pages":[
         {
@@ -7,8 +9,66 @@
             "parts":[
                 {
                     "part":"banner"
+                },
+                {
+                    "part":"showcase"
+                },
+                {
+                    "part":"dynamic"
                 }
             ]
-        }
+        },
+        {
+            "path":"download",
+            "parts":[
+                {
+                    "part":"banner"
+                },
+                {
+                    "part":"image-article"
+                }
+            ]
+        },
+        {
+            "path":"example",
+            "parts":[
+                {
+                    "part":"location"
+                },
+                {
+                    "part":"product-list"
+                }
+            ] 
+     },{
+         "path":"template",
+         "parts":[
+             {
+                 "part":"list"
+             },{
+                 "part":"location"
+             },
+             {
+                 "part":"product-list"
+             }
+         ]
+     },
+     {
+         "path":"expand",
+         "parts":[
+             {
+                 "part":"location"
+             },
+             {
+                 "part":"two-layout"
+             }
+         ]
+     },
+     {
+         "path":"help",
+         "parts":[
+         {
+             "part":"custom"
+         }]
+     }
     ]
 }

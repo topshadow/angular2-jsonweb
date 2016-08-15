@@ -1,0 +1,14 @@
+<div [innerHtml]="customHtml"></div>
+  <style>
+    {{customCss}}       
+    </style>
+
+<div class="row">
+    <div class="col-xs-6 col-sm-6">
+        <textarea [(ngModel)]="customHtml"></textarea>
+    </div>
+    <div class="col-xs-6 col-sm-6">
+        <textarea [(ngModel)]="customCss" #customCssTextarea></textarea>
+        <button class="btn btn-primary" (click)="submitCss(customCssTextarea.value)"  >提交css代码</button>
+        </div>
+    </div>

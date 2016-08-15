@@ -1,7 +1,7 @@
 "use strict";
 var router_1 = require('@angular/router');
 var page_component_1 = require('./page.component');
-var sign_in_1 = require('./parts/sign/sign-in/sign-in');
+var index_1 = require('./parts/index');
 var appRoutes = [
     {
         path: "",
@@ -10,9 +10,13 @@ var appRoutes = [
     },
     {
         path: "sign-in",
-        component: sign_in_1.SignInComponent
+        component: index_1.SignInComponent
     },
-    { path: '**',
+    {
+        path: 'sign-up',
+        component: index_1.SignUpComponent
+    },
+    { path: ':page',
         component: page_component_1.PageComponent,
         pathMatch: 'full'
     }
